@@ -1,0 +1,333 @@
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 8%;
+}
+
+#TelaInicial {
+    background-image: url(background.webp);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+#divDoCabecao {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.escritosPequenos {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.midias:hover {
+    color: #fcdc00;
+}
+
+
+
+.menuDropdown {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    min-width: 140px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.menuDropdown:hover .submenu {
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: #fcdc00;
+    color: black;
+}
+
+
+
+
+
+.paginaAtual {
+    color: #fcdc00;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#servicosTextoCentral {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+#servicosTextoCentral h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#servicosTextoCentral p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.seta {
+    margin: 0 8px;
+}
+
+
+
+#telaInicial4 {
+    background-color: white;
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+#divDoWhyweare {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.classesDivDoWhy {
+    width: 380px;
+    height: 250px;
+    background-color: #fff;
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 35px;
+}
+
+.classesDivDoWhy:hover {
+    background-color: #fcdc00;
+}
+
+.tamanhoIcones {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+.classesDivDoWhy h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.PdosWhy {
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.5;
+    margin: 0;
+}
+
+#btnFollow {
+    position: absolute;
+    left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%);
+    background-color: #fcdc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    color: black;
+    text-decoration: none;
+    height: 44px;
+    width: 18%;
+    padding-top: 0.5%;
+    z-index: 2;
+}
+
+
+
+#instagram {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.imgInstagram {
+    width: 16.6%;
+    transition: 0.3s;
+}
+
+.imgInstagram:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+
+
+
+#rodaPe {
+    height: 61vh;
+    width: 100%;
+    background-color: #04091e;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+
+#AboutMe {
+    width: 30%;
+}
+
+#AboutMe>h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+#AboutMe>p {
+    color: #777777;
+    font-size: 14px;
+}
+
+#btnColorlib {
+    color: #fcdc00;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#segundoPEcolorlib {
+    display: flex;
+}
+
+#segundoPEcolorlib>p {
+    color: #777777;
+}
+
+#coracao {
+    height: 14px;
+}
+
+
+
+#Newsletter {
+    width: 40%;
+}
+
+#Newsletter>h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+#Newsletter>p {
+    font-size: 14px;
+    color: #777777;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 20px;
+    max-width: 100%;
+    background-color: #f8f8ff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#FollowMe {
+    width: 20%;
+}
+
+#FollowMe>h3 {
+    font-size: 18px;
+    color: white;
+}
+
+#FollowMe>p {
+    font-size: 14px;
+    color: #777777;
+}
+
+#divRedesSociais {
+    display: flex;
+    justify-content: start;
+}
+
+.redesSociais {
+    height: 16px;
+    margin-left: 10px;
+}

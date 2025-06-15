@@ -1,0 +1,439 @@
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 8%;
+}
+
+#TelaInicial {
+    background-image: url(background.webp);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+#divDoCabecao {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.escritosPequenos {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.menuDropdown {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    min-width: 140px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.menuDropdown:hover .submenu {
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: #fcdc00;
+    color: black;
+}
+.midias:hover {
+    color: #fcdc00;
+}
+
+
+
+
+.paginaAtual {
+    color: #fcdc00;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#servicosTextoCentral {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+#servicosTextoCentral h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#servicosTextoCentral p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.seta {
+    margin: 0 8px;
+}
+
+
+#telaAbout2 {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divDeForaImgAbouUs {
+    height: 600px;
+    max-width: 80%;
+    background-color: white;
+    text-align: center;
+}
+
+#Didnotfind {
+    position: absolute;
+    top: 109.5%;
+    left: 50%;
+    transform: translate(-50%);
+
+    max-width: 38%;
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+#Didnotfind>h4 {
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 22px;
+}
+
+
+
+#telaInicial3 {
+    background-color: #fcdc00;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#DivclientFeedback {
+    height: 40%;
+    width: 100%;
+    background-color: #fcdc00;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#ClientsFeedback {
+    font-size: 36px;
+    margin: 0 0 18px;
+}
+
+#PdosClientes {
+    font-size: 14px;
+}
+
+#divDeForaTestemunha {
+    padding: 40px 45px 40px 40px;
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    max-width: 555px;
+    max-height: 225px;
+
+}
+
+#textosFeedback {
+    max-width: 50%;
+    padding-right: 150px;
+    padding-left: 15px;
+}
+
+#divDeDentroTestemunha {
+    display: flex;
+}
+
+#divTextosTestemunhas {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#divTextosTestemunhas>h4 {
+    margin: 0;
+}
+
+#divTextosTestemunhas>h6 {
+    margin: 10px;
+}
+
+#Ptestemunhas {
+    font-size: 14px;
+    margin: 0 0 17px;
+    max-width: 65%;
+}
+
+#imgMulherTestemunha {
+    height: 80px;
+    width: 80px;
+    margin-right: 8%;
+}
+
+
+
+
+#telaInicial4 {
+    background-color: white;
+    height: 120vh;
+    width: 100%;
+}
+
+#tituloEsubTituloPG4 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 105px 0 75px;
+}
+
+#tituloPG4 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+#subtitlePG4 {
+    font-size: 14px;
+    color: #777777;
+    font-weight: 300;
+}
+
+#divDoWhyweare {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-self: center;
+}
+
+.classesDivDoWhy {
+    width: 360px;
+    height: 201px;
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.classesDivDoWhy:hover {
+    width: 360px;
+    height: 201px;
+    border: 1px solid #eeeeee;
+    background-color: #fcdc00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.PdosWhy {
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+}
+
+
+#btnFollow {
+    position: absolute;
+    left: 50%;
+    margin-top: 3%;
+    transform: translate(-50%);
+    background-color: #fcdc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    color: black;
+    text-decoration: none;
+    height: 44px;
+    width: 18%;
+    padding-top: 0.5%;
+    z-index: 2;
+}
+
+#instagram {
+    width: 90%;    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+.imgInstagram{
+    width: 16.6%;
+    transition: 0.3s;
+}
+.imgInstagram:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+
+
+
+#rodaPe {
+    height: 61vh;
+    width: 100%;
+    background-color: #04091e;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;         
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+#AboutMe{
+    width: 30%;
+}
+#AboutMe>h3{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+#AboutMe>p{
+    color: #777777;
+    font-size: 14px;
+}
+#btnColorlib{
+    color: #fcdc00;
+    font-size: 14px;
+    text-decoration: none;
+}
+#segundoPEcolorlib{
+    display: flex;
+}
+#segundoPEcolorlib>p{
+    color: #777777;
+}
+#coracao{
+    height: 14px;
+}
+
+
+
+#Newsletter{
+    width: 40%;
+}
+#Newsletter>h3{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 45px;
+}
+#Newsletter>p{
+    font-size: 14px;
+    color: #777777;
+}
+.newsletter-form {
+    display: flex;
+    margin-top: 20px;
+    max-width: 100%;
+    background-color: #f8f8ff; 
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    background-color: #ffd700; 
+    color: black;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#FollowMe{
+   width: 20%;
+}
+#FollowMe>h3{
+    font-size: 18px;
+    color: white;
+}
+#FollowMe>p{
+    font-size: 14px;
+    color: #777777;
+}
+#divRedesSociais{
+    display: flex;
+    justify-content:start;  
+}
+.redesSociais{
+    height: 16px;
+    margin-left: 10px;
+}

@@ -313,7 +313,7 @@ header {
 #btnFollow {
     position: absolute;
     left: 50%;
-    top: 600%;
+    top: 440%;
     margin-top: 3%;
     transform: translate(-50%);
     background-color: #fcdc00;
